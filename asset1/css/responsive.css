@@ -1,0 +1,183 @@
+/* PC */
+@media (min-width:64em) {
+    .buytk {
+        display: none;
+    }
+    #header {
+        margin-right: -16px;
+    }
+}
+
+/* TABLET */
+@media (min-width:46.25em) and (max-width:63.9375em) {
+    #header .subnav li {
+        overflow: initial;
+    }
+
+    #slider {
+        margin: 0 -8px;
+    }
+
+    .search-icon {
+        margin-right: -16px;
+    }
+    
+    #content .content-section {
+        padding: 32px 16px;
+    }
+    .buytk {
+        display: none;
+    }
+
+    #content {
+        margin-right: -8px;
+    }
+    .bgr-map {
+        margin-right: -8px;
+    }
+    
+
+}
+
+/* TABLET % MOBILE */
+@media (max-width:9375em) {
+    .socials-list {
+        font-size: 20px;
+    }
+    .socials-list a {
+        padding: 20px 16px;
+    }
+    
+    .copyright {
+        margin-top: 30px;
+    }
+
+    .copyright a {
+        font-size: 20px;
+        padding: 10px 10px;
+    }
+}
+
+/* MOBILE */
+@media (max-width:46.1875em) {
+    .s-full-width {
+        width: 100%;
+    }
+
+    .mgb-8 {
+        margin-bottom: 8px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .subnav li {
+        overflow: initial;
+    }
+
+    .nav li {
+        display: block;
+    }
+
+    #header .nav > li:first-child {
+        display: inline-block;
+    }
+
+    .subnav.open-subnav {
+        position: initial;
+    }
+
+    .subnav li {
+        background-color: black;
+    }
+
+    .subnav li a {
+        color: white;
+    }
+
+    #header .buytk {
+        display: none;
+    }
+
+    #header .menu-list {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #header .nav {
+        display: block;
+        box-shadow: 0 5px 5px 5px #757575;
+    }
+
+    .search-icon {
+        display: none;
+    }
+
+    .menu-list i {
+        color: white;
+        float: right;
+        padding: 0 24px;
+        line-height: 46px;
+    }
+
+    .buytk {
+        float: right;
+    }
+    
+    .buytk button {
+        color: white;
+        padding: 10px 0;
+        font-size: 20px;
+        text-transform: uppercase;
+        background-color: black;
+        margin-right: 2px;
+        border: white solid 1px;
+        border-bottom: 2px white solid;
+    }
+    .buytk button:hover {
+        background-color: #757575;
+        color: black;
+    }
+
+    #slider {
+        margin: 0 -8px;
+    }
+
+    #content {
+        margin-right: -8px;
+    }
+
+    #content .content-section {
+        padding: 96px 16px;
+    }
+
+    .col-third {
+        width: 100%;
+    }
+
+    .member-img {
+        width: 60%;
+    }
+    #modal {
+        min-width: auto;
+    }
+    
+    .modal-container {
+        margin-top: 40px;
+    }
+
+    .contact-info {
+        width: 100%;
+    }
+
+    .btn {
+        -webkit-appearance: none;
+    }
+
+    .bgr-map {
+        margin-right: -8px;
+    }
+
+}
